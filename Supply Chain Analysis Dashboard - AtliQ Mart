@@ -1,0 +1,42 @@
+Supply Chain Analysis Dashboard - AtliQ Mart
+Project Overview:
+This project is a comprehensive Supply Chain Analysis Dashboard built using Power BI for AtliQ Mart, a fast-growing FMCG manufacturer headquartered in Gujarat, India. The dashboard tracks key supply chain performance metrics, helping the company monitor and improve its delivery service levels. The aim is to resolve delivery-related issues (late and incomplete orders) that have caused customer dissatisfaction, impacting contract renewals. This analysis is critical as AtliQ Mart plans to expand into Tier 1 cities within the next two years.
+
+Business Context:
+AtliQ Mart faced challenges where key customers chose not to renew contracts due to service issues. The primary cause speculated was incomplete and late deliveries over a prolonged period. To address this, the management tasked the supply chain analytics team to monitor the On-Time Delivery (OT%), In-Full Delivery (IF%), and On-Time In-Full (OTIF%) service levels daily for each customer, with the objective of improving overall service performance and customer satisfaction.
+
+Key Metrics:
+The dashboard tracks the following KPIs:
+
+On-Time Delivery (OT%): Percentage of orders delivered on the expected delivery date.
+In-Full Delivery (IF%): Percentage of orders delivered with the full quantity requested.
+On-Time In-Full (OTIF%): The combined percentage of orders that were both on time and in full.
+Volume Fill Rate: The percentage of the volume delivered compared to the ordered quantity.
+Total Orders: Total number of orders processed.
+Key Features:
+KPI Visualization:
+
+Clustered column charts compare actual performance vs. target for OT%, IF%, and OTIF%.
+Line charts visualize OTIF% performance trends over time to highlight patterns and areas for improvement.
+DAX Queries:
+
+Advanced DAX queries were used to calculate KPIs such as OT%, IF%, OTIF%, and Volume Fill Rate.
+Interactive Insights:
+
+Drill-down features provide in-depth analysis on a customer level, helping to identify those at risk of not renewing contracts due to poor service.
+Insights & Recommendations:
+The dashboard highlights key insights, including:
+
+Identification of customers with low OTIF rates.
+Specific products or regions with recurring delivery issues.
+Performance trends that indicate potential seasonal or operational bottlenecks.
+Recommendations: Based on the insights, the following recommendations were made:
+
+Improve logistics coordination and inventory management.
+Focus on high-priority customers with below-target service levels.
+Invest in better supply chain monitoring tools to anticipate and address issues proactively.
+Tools & Technologies Used:
+Power BI: For data visualization and dashboard creation.
+DAX (Data Analysis Expressions): For KPI calculations.
+SQL: For data extraction and processing (optional, if SQL was involved).
+Excel: For initial data cleaning (if applicable).
